@@ -1,0 +1,7 @@
+El Problema: 
+Tienes un dataset con muchas columnas, pero algunas son casi constantes (no aportan información).
+
+Tu Misión: 
+Escribe una función eliminar_baja_varianza(X_matrix, umbral) que:
+1.Use VarianceThreshold de sklearn para eliminar las características cuya varianza sea menor o igual al umbral.
+2.Devuelva la matriz de numpy con las columnas filtradas.

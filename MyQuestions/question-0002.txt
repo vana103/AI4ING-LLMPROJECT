@@ -1,0 +1,8 @@
+El Problema: 
+Tienes datos de presion_arterial. Debes limpiar los valores extremos (outliers).
+
+Tu Misión: 
+Escribe una función limpiar_outliers_iqr(df, columna) que:
+1.Calcule el primer cuartil (Q1) y el tercer cuartil (Q3) de la columna indicada.
+2.Calcule el IQR ($IQR = Q3 - Q1$).Defina los límites: $Infeior = Q1 - 1.5 \times IQR$ y $Superior = Q3 + 1.5 \times IQR$.
+3.Devuelva un DataFrame que solo contenga las filas cuyos valores en esa columna estén dentro de esos límites (inclusive).

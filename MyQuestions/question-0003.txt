@@ -1,0 +1,8 @@
+El Problema: 
+Tienes una lista de ingresos anuales y quieres agruparlos en "niveles" (bins).
+
+Tu Misión: 
+Escribe una función discretizar_ingresos(df, n_bins) que:
+1.Use KBinsDiscretizer de sklearn con la estrategia uniform y codificación ordinal.
+2.Aplique la transformación a la columna ingresos.
+3.Devuelva la matriz de numpy resultante con los valores discretizados como enteros.

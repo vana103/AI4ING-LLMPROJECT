@@ -1,0 +1,10 @@
+El Problema: 
+Tienes un DataFrame con una columna fecha (string) y una columna temperatura. Debes identificar los días de "ola de calor".
+
+Tu Misión: 
+Escribe una función detectar_olas_calor(df, umbral) que:
+1.Convierta la columna fecha a objetos datetime de pandas.
+2.Extraiga el nombre del día de la semana en una nueva columna llamada dia_semana.
+3.Filtre el DataFrame para obtener solo las filas donde la temperatura sea estrictamente mayor al umbral.
+
+Devuelva este DataFrame filtrado.
